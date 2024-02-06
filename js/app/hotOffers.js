@@ -1,4 +1,4 @@
-import getData, { api } from "../api/getData.js"; // Імпортуємо функцію getData і об'єкт api з відповідних модулів
+import getData, { apiUrl } from "../api/getData.js"; // Імпортуємо функцію getData і об'єкт api з відповідних модулів
 import { imgFolder } from "./helpers/config.js"; // Імпортуємо необхідні параметри
 import { viewPrice, setProductAttr, cleanForAttr } from "./helpers/utils.js"; // Імпортуємо додаткові функції помічники
 import { boxHotOfferBlock, boxHotOfferProducts } from "./helpers/elements.js"; // Імпортуємо необхідні елементи з модулю elements
@@ -7,7 +7,7 @@ import { boxHotOfferBlock, boxHotOfferProducts } from "./helpers/elements.js"; /
 export default function viewHotOffers() {
 
    // Викликаємо функцію getData з URL каталогу API.
-   getData(api.hotOffer).then(products => {
+   getData(apiUrl.hotOffer).then(products => {
 
       // Перевіряємо блок на існування
       if (boxHotOfferBlock) {

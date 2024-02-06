@@ -1,0 +1,8 @@
+@import url('./utils/form.css'); /* Основний вигляд заголовку блока */
+@import url('./utils/title-square.css'); /* Основний вигляд заголовку блока */
+@import url('./utils/no-result.css'); /* Вигляд пустого результату */
+@import url('./utils/dropdown.css'); /* Вигляд випливаючого блоку dropdown */
+@import url('./utils/link-hover.css'); /* Покращуємо вигляд посилання */
+@import url('./utils/hamburger.css'); /* Гамбургер для мобільного вигляду */
+@import url('./utils/cart-added-summ.css'); /* Елемент підрахунку доданих товарів */
+@import url('./utils/social.css'); /* Кнопки соціальних мереж */

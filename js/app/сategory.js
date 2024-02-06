@@ -1,4 +1,4 @@
-import getData, { api } from "../api/getData.js"; // Імпортуємо функцію getData і об'єкт api з відповідних модулів
+import getData, { apiUrl } from "../api/getData.js"; // Імпортуємо функцію getData і об'єкт api з відповідних модулів
 import viewProducts from "./products.js";          // Імпортуємо функцію виводу товарів
 import { boxCategory } from "./helpers/elements.js";      // Імпортуємо необхідні елементи з модулю elements
 
@@ -6,7 +6,7 @@ import { boxCategory } from "./helpers/elements.js";      // Імпортуєм�
 export default function viewCategory() {
 
     // Викликаємо функцію getData з URL каталогу API.
-    getData(api.category).then(categoryList => {
+    getData(apiUrl.category).then(categoryList => {
 
         // Перевіряємо, чи є категорії у каталозі.
         if (boxCategory) {
@@ -46,7 +46,7 @@ if (boxCategory) {
         const catId = Number(e.target.getAttribute('href'));
 
         // Формуємо url до якого потрібно звернутися
-        const url = (!catId) ? api.catalog : api.catalogByCategory + catId;
+        const url = (!catId) ? apiUrl.catalog : apiUrl.catalogByCategory + catId;
 
         // Викликаємо функцію viewProducts з вибраною категорією
         viewProducts(url);

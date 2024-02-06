@@ -1,10 +1,10 @@
-import getData, { api } from "../api/getData.js"; // Імпортуємо функцію getData і об'єкт api з відповідних модулів
+import getData, { apiUrl } from "../api/getData.js"; // Імпортуємо функцію getData і об'єкт api з відповідних модулів
 import { imgFolder } from "./helpers/config.js"; // Імпортуємо необхідні параметри
 import { viewPrice, setProductAttr, cleanForAttr } from "./helpers/utils.js"; // Імпортуємо додаткові функції помічники
 import { boxCountProducts, boxCatalog } from "./helpers/elements.js"; // Імпортуємо необхідні елементи з модулю elements
 
 // Функція для відображення продуктів на сторінці.
-export default function viewProducts(url = api.catalog) {
+export default function viewProducts(url = apiUrl.catalog) {
 
     // Викликаємо функцію getData з URL каталогу API.
     getData(url).then(catalog => {

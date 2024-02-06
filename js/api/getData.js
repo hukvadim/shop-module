@@ -1,5 +1,5 @@
 // Всі посилання до API
-import api from "./urls.js";
+import apiUrl from "./urls.js";
 
 // Функція для отримання данних з API
 export default function getData(url) {
@@ -7,4 +7,4 @@ export default function getData(url) {
 }
 
 // Повертаємо також посилання до API
-export { api };
+export { apiUrl };

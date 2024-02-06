@@ -1,13 +1,12 @@
-import viewCart from "./app/cart.js";
-import viewCategory from "./app/сategory.js";
-import viewProducts from "./app/products.js";
-import viewHotOffers from "./app/hotOffers.js";
-import searchProducts from "./app/search.js";
+// Функція добавлення класу активності
+function setActive(e) {
 
-// Виводимо список товарів
-viewProducts();
-viewCategory();
-viewHotOffers();
-searchProducts();
-viewCart();
+    // Отримуємо блок з яким потрібно працювати
+    const box = e.target.getAttribute('data-box-toggle');
 
+    // Добавляємо або забираємо клас активності
+    document.querySelector(box).classList.toggle('show');
+
+    // Добавляємо кнопці клас актисності
+    e.target.classList.toggle('active');
+}
