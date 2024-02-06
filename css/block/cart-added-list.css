@@ -4,6 +4,15 @@
     right: 30px;
 }
 
+.cart-added-list .cart-added-list__btn {
+    --bg: var(--color-bl-rgb);
+    --bdrs: 50%;
+    --h: 50px;
+    --padding: 0;
+    --fz: 22px;
+    z-index: 2;
+}
+
 .cart-added-list .cart-added-list__btn,
 .cart-added-list .cart-added-list__item-list,
 .cart-added-list .cart-added-list__item-btn-plus::before,
