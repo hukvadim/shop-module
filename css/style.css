@@ -1,16 +1,16 @@
-@import url('./_libs--normalize.css');  /* Загальні налаштування простих тегів */
+@import url('_libs--normalize.css');  /* Загальні налаштування простих тегів */
 
-@import url('./_0--main.css');  /* Загальні налаштування простих тегів */
-@import url('./_1--helpers.css');  /* Стилі помічники оформлення загальної поведінки */
-@import url('./_2--btn.css'); /* Кнопки проекту */
-@import url('./_2--utils.css');  /* Різні елементи блоків */
-@import url('./_2--typography.css'); /* Стилізуємо вивід з wysiwyg редактору тексту */
+@import url('_0--main.css');  /* Загальні налаштування простих тегів */
+@import url('_1--helpers.css');  /* Стилі помічники оформлення загальної поведінки */
+@import url('_2--btn.css'); /* Кнопки проекту */
+@import url('_2--utils.css');  /* Різні елементи блоків */
+@import url('_2--typography.css'); /* Стилізуємо вивід з wysiwyg редактору тексту */
 
-@import url('./block/card-product.css'); /* Карточка каталогу */
-@import url('./block/navigation.css'); /* Навігація сайту */
-@import url('./block/catalog.css'); /* Каталог товарів */
-@import url('./block/hotOffers.css'); /* Гарячі пропозиції */
-@import url('./block/gallery.css'); /* Галерея фотографій */
-@import url('./block/cart-added-list.css'); /* Список доданих товарів */
-@import url('./block/article.css'); /* Вигляд простої статті */
-@import url('./block/footer.css'); /* Постійна нижня частина сайту */
+@import url('block/card-product.css'); /* Карточка каталогу */
+@import url('block/navigation.css'); /* Навігація сайту */
+@import url('block/catalog.css'); /* Каталог товарів */
+@import url('block/hotOffers.css'); /* Гарячі пропозиції */
+@import url('block/gallery.css'); /* Галерея фотографій */
+@import url('block/cart-added-list.css'); /* Список доданих товарів */
+@import url('block/article.css'); /* Вигляд простої статті */
+@import url('block/footer.css'); /* Постійна нижня частина сайту */
