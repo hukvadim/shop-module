@@ -51,6 +51,7 @@
 	--h: var(--input-h);
 	--icon-gap: 10px;
 	--padding: 0 30px;
+	white-space: nowrap;
 }
 .select-file .select-file__btn .icon {
     animation: shakeUpDown .8s ease-in-out infinite alternate;
