@@ -1,0 +1,44 @@
+@@include('./block/block--0-system-head.html', {
+	"title": '',
+	"desc": '',
+	"pageClass": 'page-order',
+})
+
+@@include('./block/block--navigation.html')
+
+<div class="article">
+	<div class="container">
+
+		<h2 class="article__title">Форма замовлення:</h2>
+
+		<div class="page-content">
+			<form id="order-form">
+				<div class="form-group">
+					<label class="form-label" for="name">Ім'я:</label>
+					<input type="text" id="name" name="name" class="form-control" required>
+				</div>
+
+				<div class="form-group">
+					<label class="form-label" for="phone">Телефон:</label>
+					<input type="tel" id="phone" name="phone" class="form-control" required>
+				</div>
+
+				<div class="form-group">
+					<label class="form-label" for="address">Адреса доставки:</label>
+					<input type="text" id="address" name="address" class="form-control" required>
+				</div>
+
+				<button type="submit" class="btn">Оформити замовлення</button>
+			</form>
+
+			<h2 class="form-success hidden">Замовлення успішно відправлено!</h2>
+
+			<h2 class="form-empty hidden">Корзина пуста!</h2>
+
+		</div>
+	</div>
+</div>
+
+@@include('./block/block--cart-added-list.html')
+
+@@include('./block/block--1-system-footer.html')
