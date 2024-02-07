@@ -4,30 +4,35 @@
 			<div class="navigation__left navigation__links js-mobile-menu">
 				<ul class="menu navigation__item-list">
 					<li class="menu__li navigation__item">
-						<a href="index.html" class="menu__link link-hover">Головна</a>
+						<a href="@@if (context.adminPath) {../}index.html" class="menu__link link-hover">Головна</a>
 					</li>
 					<li class="menu__li navigation__item">
-						<a href="delivery.html" class="menu__link link-hover">Доставка і оплата</a>
+						<a href="@@if (context.adminPath) {../}delivery.html" class="menu__link link-hover">Доставка і оплата</a>
 					</li>
 					<li class="menu__li navigation__item">
-						<a href="contacts.html" class="menu__link link-hover">Контакти</a>
+						<a href="@@if (context.adminPath) {../}contacts.html" class="menu__link link-hover">Контакти</a>
 					</li>
 				</ul>
 			</div>
 			<div class="navigation__middle">
-				<a href="index.html" class="logo">I-happy</a>
+				<a href="@@if (context.adminPath) {../}index.html" class="logo">I-happy</a>
 			</div>
 			<div class="navigation__right">
 				<ul class="navigation__item-list">
 					<li class="navigation__item">
-						<a href="search.html" class="navigation__item-link">
+						<a href="@@if (context.adminPath) {../}search.html" class="navigation__item-link">
 							<svg class="icon icon-search"><use href="#icon-search"></use></svg>
 						</a>
 					</li>
 					<li class="navigation__item">
-						<a href="order.html" class="navigation__item-link">
+						<a href="@@if (context.adminPath) {../}order.html" class="navigation__item-link">
 							<span class="cart-added-summ js-cart-added-summ">0</span>
 							<svg class="icon icon-cart-bag"><use href="#icon-cart-bag"></use></svg>
+						</a>
+					</li>
+					<li class="navigation__item">
+						<a href="@@if (context.adminPath) {../}profile-auth.html" class="navigation__item-link">
+							<svg class="icon icon-user"><use href="#icon-user"></use></svg>
 						</a>
 					</li>
 					<li class="navigation__item hide-pc">

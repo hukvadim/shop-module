@@ -19,7 +19,7 @@
     min-height: var(--h);
     padding: var(--padding);
     font-size: var(--fz);
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     gap: var(--icon-gap);
@@ -58,6 +58,15 @@
     --bg: 229, 231, 236;
     --bg-opacity: 0.3;
     --hover-bg: 229, 231, 236;
+}
+
+.btn-link {
+    --padding: 0;
+    --color: var(--color-pr);
+    --bg-opacity: 0;
+    --hover-bg-opacity: 0;
+    --hover-color: var(--color-pr-hover);
+    --line-bottom: 10%;
 }
 
 .btn-white {

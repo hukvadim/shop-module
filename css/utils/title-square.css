@@ -1,25 +1,28 @@
 .title-square {
     --h: 176px;
-    --fz-sm-text: 15px;
-    --fz-lg-text: 30px;
+    --color: var(--color-bl);
     --square-top: 26px;
     --square-w: 94px;
     --square-h: 150px;
+    --margin-lg-text: 0;
+    --fz-sm-text: 15px;
+    --fz-lg-text: 30px;
+    --icon-padding: 14px;
+    --icon-color: #7B86AA;
     
+    color: var(--color);
     position: relative;
     padding-top: calc(var(--h) / 2.5);
     min-height: var(--h);
     text-align: center;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     line-height: 1.6;
     margin-bottom: 60px;
 }
-.title-square.title-square--icon {
-    --icon-padding: 10px;
-    --icon-color: #ff0000;
-    
+.title-square.title-square--icon {    
     padding-top: calc(var(--h) / 3.6);
 }
 .title-square.title-square--icon::after {
@@ -56,6 +59,7 @@
     line-height: 1;
     padding-bottom: var(--icon-padding);
     color: var(--icon-color);
+    position: relative;
 }
 
 .title-square .title-square__small {
@@ -72,4 +76,17 @@
     font-size: var(--fz-lg-text);
     text-transform: uppercase;
     font-weight: 700;
+    margin: var(--margin-lg-text);
+}
+
+
+.page-content > .container > .title-square {
+    --fz-lg-text: 35px;
+	--square-h: 100px;
+	--square-h: 172px;
+	--square-top: 22px;
+	margin: 0 0 100px;
+}
+.page-content > .container > .title-square a {
+	--color: #7B86AA;
 }

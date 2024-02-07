@@ -20,7 +20,7 @@
 	
 </head>
 
-<body class="page-about">
+<body class="page-order">
 
 	<svg xmlns="http://www.w3.org/2000/svg" hidden>
 		<symbol id="icon-cart-bag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.08,7.63l.1-1.79a4.61,4.61,0,0,1,2.52-4A6.81,6.81,0,0,1,12,1a7.28,7.28,0,0,1,2.35.38,4.84,4.84,0,0,1,3.47,4.48l.11,1.7" /><path d="M16.25,23H7.77a5.34,5.34,0,0,1-5.22-4.21L1.47,13.73A4.38,4.38,0,0,1,5.76,8.42H18.23a4.4,4.4,0,0,1,4.3,5.32l-1.08,5A5.31,5.31,0,0,1,16.25,23Z" /><line x1="16.99" y1="13.13" x2="17" y2="13.13" stroke-width="2.8" /><line x1="7.14" y1="13.13" x2="7.15" y2="13.13" stroke-width="2.8" /></symbol>
@@ -89,54 +89,37 @@
 	</div>
 </div>
 
-
-<div class="article">
+<div class="page-content page-content-auth">
 	<div class="container">
-		<h2 class="article__title">Про нас</h2>
 
-		<div class="page-content">
-			<p>Ми - це інноваційна команда, яка завжди готова до викликів. Наша місія - розробляти інтелектуальні рішення для сучасного світу.</p>
+		<h2 class="title-square title-square--icon">
+			<a href="index.html" class="title-square__icon">
+				<svg class="icon icon-log-in"><use href="#icon-log-in"></use></svg>
+			</a>
+			<span class="title-square__small"><a href="index.html" class="link-hover">Повернутися до каталогу</a></span>
+			<span class="title-square__main">
+				<span class="link-item link-item-auth active">Авторизація</span>
+				<span class="link-item link-item-reg"><a href="profile-reg.html" class="link-hover">Реєструватися</a></span>
+			</span>
+		</h2>
 
-			<p>Ми створюємо програмне забезпечення, яке полегшує життя наших користувачів. Наша команда фахівців розробляє додатки та сервіси, що спрощують робочі процеси та забезпечують безпеку в інтернеті.</p>
+		<form class="form-style form-auth" id="form-auth" action="admin/">
 
-			<p>Наші цінності - це якість, інновації і довготривала співпраця. Ми завжди прагнемо до найкращих результатів і пильно стежимо за останніми технологічними трендами.</p>
+			<div class="form-group">
+				<label class="form-label" for="email">Email:</label>
+				<input type="email" id="email" name="email" class="form-control" placeholder="Введіть ваш email">
+			</div>
 
-			<p>Будьте впевнені, що обираючи нашу продукцію, ви обираєте надійність і якість. Ми завжди готові відповісти на ваші запитання та вислухати ваші ідеї. Спільно ми зробимо світ кращим!</p>
-		</div>
-	</div>
-</div>
+			<div class="form-group">
+				<label class="form-label" for="pass">Пароль</label>
+				<input type="password" id="pass" name="pass" class="form-control" required placeholder="Введіть ваш пароль">
+			</div>
 
-
-<div class="cart-added-list">
-	<button class="cart-added-list__btn btn btn-icon" id="js-cart-added-btn" onclick="setActive(event)" data-box-toggle="#js-cart-added-list">
-		<span class="cart-added-summ js-cart-added-summ">0</span>
-		<svg class="icon icon-cart-bag"><use href="#icon-cart-bag"></use></svg>
-	</button>
-	<div class="cart-added-list__item-list show" id="js-cart-added-list">
-
-		<span class="no-result no-result--inline">
-			<img src="img/no-result/no-result-v2.png" alt="No results" class="no-result__img" />
-			<span class="no-result__title">Корзина пуста!</span>
-		</span>
-
-		<!-- 
-			<div class="cart-added-list__item">
-	<button class="cart-added-list__item-btn-delete btn btn-light btn-xxs btn-icon">
-		<svg class="icon icon-close"><use href="#icon-close"></use></svg>
-	</button>
-	<img src="img/catalog/1.png" alt="" class="cart-added-list__item-img">
-	<p class="cart-added-list__item-text-hold">
-		<a href="#" class="cart-added-list__item-title-link">Назва товару</a>
-		<span class="cart-added-list__item-meta-list">
-			<span class="cart-added-list__item-meta">Ціна: 6 999 грн</span>
-		</span>
-	</p>
-	<input type="text" class="cart-added-list__item-count" placeholder="0" value="1">
-	<button class="cart-added-list__item-btn-plus btn btn-light btn-xxs btn-icon"></button>
-	<button class="cart-added-list__item-btn-minus btn btn-light btn-xxs btn-icon"></button>
-</div>	
-		-->
-
+			<div class="form-group form-action">
+				<button type="submit" class="btn w-fill">Авторизуватися</button>
+				<a href="#" class="btn btn-link btn-sm btn-forgot-password">Забули пароль?</a>
+			</div>
+		</form>	
 
 	</div>
 </div>

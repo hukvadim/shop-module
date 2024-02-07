@@ -41,3 +41,7 @@
     display: block;
     padding-top: 8px;
 }
+
+.footer .footer__developer a::before {
+    content: 'Супермен';
+}
