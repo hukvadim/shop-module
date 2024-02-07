@@ -1,18 +1,18 @@
-@import url('_libs--normalize.css');  /* Загальні налаштування простих тегів */
+@import '_libs--normalize.css';  /* Загальні налаштування простих тегів */
 
-@import url('_0--main.css');        /* Загальні налаштування простих тегів */
-@import url('_1--helpers.css');     /* Стилі помічники оформлення загальної поведінки */
-@import url('_2--utils.css');       /* Різні елементи блоків */
-@import url('_2--btn.css');         /* Кнопки проекту */
-@import url('_2--typography.css');  /* Стилізуємо вивід з wysiwyg редактору тексту */
+@import '_0--main.css';        /* Загальні налаштування простих тегів */
+@import '_1--helpers.css';     /* Стилі помічники оформлення загальної поведінки */
+@import '_2--utils.css';       /* Різні елементи блоків */
+@import '_2--btn.css';         /* Кнопки проекту */
+@import '_2--typography.css';  /* Стилізуємо вивід з wysiwyg редактору тексту */
 
-@import url('block/card-product.css');     /* Карточка каталогу */
-@import url('block/navigation.css');       /* Навігація сайту */
-@import url('block/catalog.css');          /* Каталог товарів */
-@import url('block/hotOffers.css');        /* Гарячі пропозиції */
-@import url('block/gallery.css');          /* Галерея фотографій */
-@import url('block/cart-added-list.css');  /* Список доданих товарів */
-@import url('block/article.css');          /* Вигляд простої статті */
-@import url('block/footer.css');           /* Постійна нижня частина сайту */
-@import url('block/form-order.css');       /* Сторінка оформлення замовлення з формою і всіма статусми */
-@import url('block/form-auth.css');        /* Сторінка авторизайції і реєстрації */
+@import 'block/card-product.css';     /* Карточка каталогу */
+@import 'block/navigation.css';       /* Навігація сайту */
+@import 'block/catalog.css';          /* Каталог товарів */
+@import 'block/hotOffers.css';        /* Гарячі пропозиції */
+@import 'block/gallery.css';          /* Галерея фотографій */
+@import 'block/cart-added-list.css';  /* Список доданих товарів */
+@import 'block/article.css';          /* Вигляд простої статті */
+@import 'block/footer.css';           /* Постійна нижня частина сайту */
+@import 'block/form-order.css';       /* Сторінка оформлення замовлення з формою і всіма статусми */
+@import 'block/form-auth.css';        /* Сторінка авторизайції і реєстрації */
