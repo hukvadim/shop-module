@@ -1,10 +1,10 @@
-@import '_libs--normalize.css';  /* Загальні налаштування простих тегів */
+@import 'libs--normalize.css';  /* Загальні налаштування простих тегів */
 
-@import '_0--main.css';        /* Загальні налаштування простих тегів */
-@import '_1--helpers.css';     /* Стилі помічники оформлення загальної поведінки */
-@import '_2--utils.css';       /* Різні елементи блоків */
-@import '_2--btn.css';         /* Кнопки проекту */
-@import '_2--typography.css';  /* Стилізуємо вивід з wysiwyg редактору тексту */
+@import '0--main.css';        /* Загальні налаштування простих тегів */
+@import '1--helpers.css';     /* Стилі помічники оформлення загальної поведінки */
+@import '2--utils.css';       /* Різні елементи блоків */
+@import '2--btn.css';         /* Кнопки проекту */
+@import '2--typography.css';  /* Стилізуємо вивід з wysiwyg редактору тексту */
 
 @import 'block/card-product.css';     /* Карточка каталогу */
 @import 'block/navigation.css';       /* Навігація сайту */
