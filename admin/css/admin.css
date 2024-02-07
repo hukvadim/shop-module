@@ -1,6 +1,6 @@
-@import url('_0--main.css');
-@import url('_1--helpers.css');
-@import url('_2--btn.css');
+@import url('0--main.css');
+@import url('1--helpers.css');
+@import url('2--btn.css');
 @import url('block/sidebar.css');
 @import url('block/page-content.css');
 @import url('block/admin-card.css');
