@@ -11,8 +11,8 @@
     --color-wh: #fff;
     --color-wh-rgb: 255,255,255;
     --color-placeholder: #adb5bd;
-    --color-red: #df332c;
-    --color-red-rgb: 223, 51, 44;
+    --color-red: #ef5b55;
+    --color-red-rgb: 239, 91, 85;
     --color-green: #54a469;
     --color-green-rgb: 84, 164, 105;
 
@@ -54,6 +54,12 @@ a {
 a:hover {
     color: var(--hover-color);
     background-color: var(--hover-bg);
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: .83em 0;
 }
 
 ul {

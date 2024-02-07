@@ -39,6 +39,10 @@
     color: var(--hover-color);
 }
 
+.btn:disabled {
+    opacity: .25;
+}
+
 .btn-ghost {
     --color: var(--color-pr);
     --bg-opacity: 0;

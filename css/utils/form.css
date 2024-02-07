@@ -70,7 +70,10 @@
  * Основний вигляд поля форми
  */
 .form-group {
-	margin-bottom: 15px;
+	margin-bottom: 8px;
+}
+.form-group.form-group--divider {
+	margin-top: 40px;
 }
 .form-group:last-child {
 	margin-bottom: 0;
@@ -78,7 +81,12 @@
 .form-label {
 	font-size: 15px;
 	font-weight: 600;
-	margin-bottom: 8px;
+	display: flex;
+    -webkit-user-select: none;
+    user-select: none;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 0.25rem;
 }
 .form-control {
 	--input-h: 56px;
@@ -192,5 +200,8 @@ textarea.form-control {
 }
 .form-style .box-bottom .btn {
 	--padding: 0 40px;
+}
+.form-style .form-action {
+	margin-top: 30px;
 }
 

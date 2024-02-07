@@ -24,12 +24,23 @@
     padding: 0 var(--container-padding);
 }
 
+.w-fill {
+    width: 100%;
+}
+
+.no-before::before,
+.no-after::after {
+    display: none !important;
+}
+
+.mt-none { margin-top: 0 !important; }
+
 .form-success {
-    color: green;
+    color: var(--color-green);
 }
 
 .form-empty {
-    color: red;
+    color: var(--color-red);
 }
 
 
