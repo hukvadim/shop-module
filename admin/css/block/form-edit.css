@@ -7,4 +7,8 @@
 		width: 100%;
 		text-align: left;
 	}
+	.admin-form-edit.form-style .box-bottom {
+		padding-left: 0;
+	}
+
 }
