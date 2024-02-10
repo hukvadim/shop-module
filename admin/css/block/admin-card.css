@@ -26,6 +26,7 @@
 	font-size: 20px;
 	font-weight: 600;
 	transition: .25s;
+	line-height: 1.35;
 }
 .admin-card .admin-card__desk {
 	font-size: 14px;
@@ -39,4 +40,16 @@
 }
 .admin-card .admin-card__btn {
 	--fz: 11px;	
+}
+@media (max-width: 500px) {
+	.admin-card {
+		align-items: center;
+		flex-direction: column;
+	}
+	.admin-card .admin-card__text-hold {
+		text-align: center;
+	}
+	.admin-card .admin-card__btn-list {
+		justify-content: center;
+	}
 }

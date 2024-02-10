@@ -40,6 +40,28 @@
 	text-align: right;
 }
 .page-content-auth .title-square .title-square__main .link-item-reg {
-	text-align-last: left;
+	text-align: left;
+}
+.page-password-forgot .page-content-auth .title-square .title-square__main::after {
+	display: none;
 }
 
+@media (max-width: 890px) {
+	.page-content-auth .title-square .title-square__main {
+		flex-direction: column;
+		gap: 20px;
+	}
+	.page-content-auth .title-square .title-square__main::after {
+		font-size: 20px;
+	}
+	.page-content-auth .title-square .title-square__main .link-item {
+		text-align: center;
+		width: 100%;
+	}
+	.page-content-auth .title-square .title-square__main .link-item .link-hover {
+		--line-bottom: 7px;
+	}
+	.page-profile-reg .page-content-auth .title-square .link-item-reg {
+		order: -1;
+	}
+}
