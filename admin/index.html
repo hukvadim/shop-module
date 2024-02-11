@@ -78,7 +78,7 @@
 						</a>
 					</li>
 					<li class="navigation__item hide-pc">
-						<label class="hamburger" style="--color: #444;">
+						<label class="hamburger">
 							<input type="checkbox" onchange="setActive(event)" data-box-toggle=".js-mobile-menu">
 							<svg viewBox="0 0 32 32"><path class="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path><path class="line" d="M7 16 27 16"></path></svg>
 						</label>
@@ -106,33 +106,33 @@
 
 	<ul class="admin-sidebar__list-links list-unstyled mb-0">
 		<li class="admin-sidebar__li">
-			<a href="admin/users.html" class="admin-sidebar__link btn btn-lighter active">
+			<a href="index.html" class="admin-sidebar__link btn btn-lighter active">
+				<svg class="icon icon-cart-bag"><use href="#icon-cart-bag"></use></svg>
+				Товари
+			</a>
+		</li>
+		<li class="admin-sidebar__li">
+			<a href="index.html" class="admin-sidebar__link btn btn-lighter ">
 				<svg class="icon icon-user top--1"><use href="#icon-user"></use></svg>
-				Users
+				Користувачі
 			</a>
 		</li>
 		<li class="admin-sidebar__li">
-			<a href="admin/articles.html" class="admin-sidebar__link btn btn-lighter ">
-				<svg class="icon icon-article"><use href="#icon-article"></use></svg>
-				Articles
-			</a>
-		</li>
-		<li class="admin-sidebar__li">
-			<a href="admin/category.html" class="admin-sidebar__link btn btn-lighter ">
+			<a href="index.html" class="admin-sidebar__link btn btn-lighter ">
 				<svg class="icon icon-category"><use href="#icon-category"></use></svg>
-				Categories
+				Категорії
 			</a>
 		</li>
 		<li class="admin-sidebar__li">
-			<a href="admin/comments.html" class="admin-sidebar__link btn btn-lighter ">
+			<a href="index.html" class="admin-sidebar__link btn btn-lighter ">
 				<svg class="icon icon-comments"><use href="#icon-comments"></use></svg>
-				Comments
+				Замовлення
 			</a>
 		</li>
 		<li class="admin-sidebar__li admin-sidebar__li--logout">
-			<a href="#" class="admin-sidebar__link btn btn-lighter btn-logout">
+			<a href="../index.html" class="admin-sidebar__link btn btn-lighter btn-logout">
 				<svg class="icon icon-log-out"><use href="#icon-log-out"></use></svg>
-				Logout
+				Вийти
 			</a>
 		</li>
 	</ul>
@@ -143,8 +143,8 @@
 				<div class="admin-header">
 					<div class="admin-header__title-hold">
 						<h2 class="admin-header__title">
-							Users
-							<a href="#" class="admin-header__btn-add btn btn-xsm btn-icon btn-lighter btn-circle">
+							Товари
+							<a href="form-edit.html" class="admin-header__btn-add btn btn-xsm btn-icon btn-lighter btn-circle">
 								<svg class="icon icon-plus"><use href="#icon-plus"></use></svg>
 							</a>
 						</h2>
@@ -152,14 +152,14 @@
 							<button class="btn btn-xsm btn-icon btn-ghost btn-submit form-control--icon">
 								<svg class="icon icon-filter"><use href="#icon-filter"></use></svg>
 							</button>
-							<input type="search" class="form-control form-control-round form-control-sm js-admin-search-onkeup" name="search" placeholder="Search..." maxlength="100" minlength="4">
+							<input type="search" class="form-control form-control-round form-control-sm js-admin-search-onkeup" name="search" placeholder="Шукати..." maxlength="100" minlength="4">
 						</div>
 					</div>
 				
 					<div class="admin-header__filter btn-group btn-filter-group">
-						<a href="#" class="btn btn-white btn-sm btn-filter active">All users</a>
-						<a href="#" class="btn btn-white btn-sm btn-filter ">Published</a>
-						<a href="#" class="btn btn-white btn-sm btn-filter ">Hidden</a>
+						<a href="#" class="btn btn-white btn-sm btn-filter active">Всі товари</a>
+						<a href="#" class="btn btn-white btn-sm btn-filter ">Опубліковані</a>
+						<a href="#" class="btn btn-white btn-sm btn-filter ">Приховані</a>
 					</div>
 				
 				</div>
@@ -171,10 +171,30 @@
 				
 						<div class="admin-card hover-scale-el">
 							<a href="form-edit.html" class="admin-card__img-hold scale-el">
+								<img src="../img/catalog/1.png" alt="" class="admin-card__img">
+							</a>
+							<div class="admin-card__text-hold">
+								<a href="form-edit.html" class="admin-card__title">Планшет Lenovo Tab M10 Plus 4/128 Grey</a>
+								<div class="admin-card__btn-list">
+									<a href="form-edit.html" class="admin-card__btn btn btn-action btn-sm btn-edit">
+										<svg class="icon icon-edit"><use xlink:href="#icon-edit"></use></svg>
+										Edit
+									</a>
+									<a href="#"
+										class="admin-card__btn btn btn-action btn-sm btn-delete">
+										<svg class="icon icon-delete"><use xlink:href="#icon-delete"></use></svg>
+										Delete
+									</a>
+								</div>
+							</div>
+						</div>
+				
+						<div class="admin-card hover-scale-el">
+							<a href="form-edit.html" class="admin-card__img-hold scale-el">
 								<img src="./img/no-img.jpg" alt="" class="admin-card__img">
 							</a>
 							<div class="admin-card__text-hold">
-								<a href="form-edit.html" class="admin-card__title">Vadim Huk</a>
+								<a href="form-edit.html" class="admin-card__title">Планшет Lenovo Tab M10 Plus 4/128 Grey</a>
 								<div class="admin-card__btn-list">
 									<a href="form-edit.html" class="admin-card__btn btn btn-action btn-sm btn-edit">
 										<svg class="icon icon-edit"><use xlink:href="#icon-edit"></use></svg>

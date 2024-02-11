@@ -2,7 +2,7 @@
     --size: 2em;
     --size-stroke: 2;
     --time: 500ms;
-    --color: #fff;
+    --color: #444;
     cursor: pointer;
     width: var(--size);
     height: var(--size);

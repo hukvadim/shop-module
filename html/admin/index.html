@@ -14,15 +14,15 @@
 	<div class="container">
 		<div class="page-content-hold d-flex">
 			@@include('./block/block--sidebar.html', {
-				'active': 'users'
+				'active': 'catalog'
 			})
 			
 			<div class="page-admin-holder">
 				<div class="admin-header">
 					<div class="admin-header__title-hold">
 						<h2 class="admin-header__title">
-							Users
-							<a href="#" class="admin-header__btn-add btn btn-xsm btn-icon btn-lighter btn-circle">
+							Товари
+							<a href="form-edit.html" class="admin-header__btn-add btn btn-xsm btn-icon btn-lighter btn-circle">
 								<svg class="icon icon-plus"><use href="#icon-plus"></use></svg>
 							</a>
 						</h2>
@@ -30,14 +30,14 @@
 							<button class="btn btn-xsm btn-icon btn-ghost btn-submit form-control--icon">
 								<svg class="icon icon-filter"><use href="#icon-filter"></use></svg>
 							</button>
-							<input type="search" class="form-control form-control-round form-control-sm js-admin-search-onkeup" name="search" placeholder="Search..." maxlength="100" minlength="4">
+							<input type="search" class="form-control form-control-round form-control-sm js-admin-search-onkeup" name="search" placeholder="Шукати..." maxlength="100" minlength="4">
 						</div>
 					</div>
 				
 					<div class="admin-header__filter btn-group btn-filter-group">
-						<a href="#" class="btn btn-white btn-sm btn-filter active">All users</a>
-						<a href="#" class="btn btn-white btn-sm btn-filter ">Published</a>
-						<a href="#" class="btn btn-white btn-sm btn-filter ">Hidden</a>
+						<a href="#" class="btn btn-white btn-sm btn-filter active">Всі товари</a>
+						<a href="#" class="btn btn-white btn-sm btn-filter ">Опубліковані</a>
+						<a href="#" class="btn btn-white btn-sm btn-filter ">Приховані</a>
 					</div>
 				
 				</div>
@@ -49,10 +49,30 @@
 				
 						<div class="admin-card hover-scale-el">
 							<a href="form-edit.html" class="admin-card__img-hold scale-el">
+								<img src="../img/catalog/1.png" alt="" class="admin-card__img">
+							</a>
+							<div class="admin-card__text-hold">
+								<a href="form-edit.html" class="admin-card__title">Планшет Lenovo Tab M10 Plus 4/128 Grey</a>
+								<div class="admin-card__btn-list">
+									<a href="form-edit.html" class="admin-card__btn btn btn-action btn-sm btn-edit">
+										<svg class="icon icon-edit"><use xlink:href="#icon-edit"></use></svg>
+										Edit
+									</a>
+									<a href="#"
+										class="admin-card__btn btn btn-action btn-sm btn-delete">
+										<svg class="icon icon-delete"><use xlink:href="#icon-delete"></use></svg>
+										Delete
+									</a>
+								</div>
+							</div>
+						</div>
+				
+						<div class="admin-card hover-scale-el">
+							<a href="form-edit.html" class="admin-card__img-hold scale-el">
 								<img src="./img/no-img.jpg" alt="" class="admin-card__img">
 							</a>
 							<div class="admin-card__text-hold">
-								<a href="form-edit.html" class="admin-card__title">Vadim Huk</a>
+								<a href="form-edit.html" class="admin-card__title">Планшет Lenovo Tab M10 Plus 4/128 Grey</a>
 								<div class="admin-card__btn-list">
 									<a href="form-edit.html" class="admin-card__btn btn btn-action btn-sm btn-edit">
 										<svg class="icon icon-edit"><use xlink:href="#icon-edit"></use></svg>

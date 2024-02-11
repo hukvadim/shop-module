@@ -47,6 +47,7 @@
 	--hover-bg-opacity: 0.1;
 	--hover-color: var(--color-pr);
 	justify-content: flex-start;
+	width: 100%;
 }
 .admin-sidebar .admin-sidebar__link.active {
 	--color: var(--color-pr);
