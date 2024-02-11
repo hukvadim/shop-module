@@ -26,7 +26,7 @@ export default function viewCartProducts() {
 
 		  	// Виводимо html доданого товару
 		  	return `<div class="cart-added-list__item">
-				   <button class="cart-added-list__item-btn-delete btn-light js-card-remove" data-id="${cartAddId}"><svg class='icon icon-close'><use xlink:href='#icon-close'></use></svg></button>
+				   <button class="cart-added-list__item-btn-delete btn-light js-card-remove" data-id="${cartAddId}"><svg class='icon icon-close'><use href='#icon-close'></use></svg></button>
 				   <img src="img/catalog/${img}" alt="" class="cart-added-list__item-img">
 				   <p class="cart-added-list__item-text-hold">
 					  <a href="#" class="cart-added-list__item-title-link">${title}</a>

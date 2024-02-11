@@ -43,6 +43,9 @@
 .admin-card .admin-card__btn {
 	--fz: 11px;	
 }
+.admin-card .admin-card__btn.btn-publish {
+	--icon-opacity: .78;
+}
 @media (max-width: 500px) {
 	.admin-card {
 		align-items: center;

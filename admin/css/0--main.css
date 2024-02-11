@@ -19,4 +19,9 @@
     line-height: 1.2;
 }
 
-
+.publish-show {
+    color: rgba(var(--color-green-rgb), .8);
+}
+.publish-hide {
+    color: rgba(var(--color-red-rgb), .6);
+}

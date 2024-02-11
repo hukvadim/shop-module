@@ -36,7 +36,7 @@ export default function viewHotOffers() {
                         <div class="card-product__text-hold">
                            <a href="#" class="card-product__title-link" ${setProductAttr(product)}>${title}</a>
                            <span class="card-product__price">${viewPrice(price)} грн <small>${viewPrice(oldprice)} грн</small></span>
-                           <a href="#" class="card-product__btn-add" ${setProductAttr(product)}><svg class='icon icon-cart'><use xlink:href='#icon-cart-add'></use></svg></a>
+                           <a href="#" class="card-product__btn-add" ${setProductAttr(product)}><svg class='icon icon-cart'><use href='#icon-cart-add'></use></svg></a>
                         </div>
                      </div>`;
             });
