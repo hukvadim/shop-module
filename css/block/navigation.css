@@ -114,7 +114,7 @@
         transform: scale(0);
         padding: 20px 24px;
         background-color: #ffffff;
-        min-width: 160px;
+        min-width: 260px;
         z-index: 99;
         box-shadow: 0 5px 22px 0 rgba(208, 219, 229, .62), 0 2px 3px 0 rgba(107, 132, 160, .18), 0 5px 5px 0 rgba(237, 239, 242, .36);
         border-radius: 15px;
